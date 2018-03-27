@@ -11,11 +11,13 @@
 		5414DA6BFCD8D241DA37C68F /* Pods_SnapBetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */; };
 		67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFD206A7683004F4E25 /* AppDelegate.swift */; };
 		67B23C00206A7683004F4E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFF206A7683004F4E25 /* ViewController.swift */; };
-		67B23C03206A7683004F4E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C01206A7683004F4E25 /* Main.storyboard */; };
 		67B23C05206A7683004F4E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C04206A7683004F4E25 /* Assets.xcassets */; };
 		67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */; };
 		67B23C13206A7683004F4E25 /* SnapBetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C12206A7683004F4E25 /* SnapBetTests.swift */; };
 		67B23C1E206A7683004F4E25 /* SnapBetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */; };
+		67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C2D206A7F75004F4E25 /* Main.storyboard */; };
+		67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */; };
+		67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */; };
 		CD92E53DEAE06A32DD435F0B /* Pods_SnapBetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +46,6 @@
 		67B23BFA206A7683004F4E25 /* SnapBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B23BFD206A7683004F4E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B23BFF206A7683004F4E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67B23C02206A7683004F4E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67B23C04206A7683004F4E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B23C07206A7683004F4E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B23C09206A7683004F4E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +55,9 @@
 		67B23C19206A7683004F4E25 /* SnapBetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapBetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapBetUITests.swift; sourceTree = "<group>"; };
 		67B23C1F206A7683004F4E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B23C2D206A7F75004F4E25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+DeviceOrientation.swift"; sourceTree = "<group>"; };
+		67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Monospaced.swift"; sourceTree = "<group>"; };
 		834F418B0048E625E460A8B1 /* Pods-SnapBetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7470077ADC6CA28288BD77E /* Pods-SnapBet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet.debug.xcconfig"; sourceTree = "<group>"; };
 		B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,9 +131,10 @@
 		67B23BFC206A7683004F4E25 /* SnapBet */ = {
 			isa = PBXGroup;
 			children = (
+				67B23C2F206A7F97004F4E25 /* Extensions */,
+				67B23C2D206A7F75004F4E25 /* Main.storyboard */,
 				67B23BFD206A7683004F4E25 /* AppDelegate.swift */,
 				67B23BFF206A7683004F4E25 /* ViewController.swift */,
-				67B23C01206A7683004F4E25 /* Main.storyboard */,
 				67B23C04206A7683004F4E25 /* Assets.xcassets */,
 				67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */,
 				67B23C09206A7683004F4E25 /* Info.plist */,
@@ -153,6 +158,15 @@
 				67B23C1F206A7683004F4E25 /* Info.plist */,
 			);
 			path = SnapBetUITests;
+			sourceTree = "<group>";
+		};
+		67B23C2F206A7F97004F4E25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */,
+				67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D467143D8F8EF8863595165C /* Frameworks */ = {
@@ -281,9 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */,
 				67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */,
 				67B23C05206A7683004F4E25 /* Assets.xcassets in Resources */,
-				67B23C03206A7683004F4E25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +475,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B23C00206A7683004F4E25 /* ViewController.swift in Sources */,
+				67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */,
 				67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */,
+				67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,14 +513,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		67B23C01206A7683004F4E25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67B23C02206A7683004F4E25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
