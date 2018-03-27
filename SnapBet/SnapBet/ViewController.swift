@@ -51,11 +51,6 @@ class ViewController: UIViewController {
                 let notificationCenter = NotificationCenter.default
                 notificationCenter.addObserver(self, selector: #selector(self.appMovedToBackground), name: Notification.Name.UIApplicationDidEnterBackground, object: nil)
                 notificationCenter.addObserver(self, selector: #selector(self.appMovedToForeground), name: Notification.Name.UIApplicationWillEnterForeground, object: nil)
-            } else {
-                let alertController = UIAlertController(title: "Ouuuups!", message: "Please agree the camera permission!", preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "Ok, let me restart the app", style: .default, handler: { _ in
-                    fatalError()
-                }))
             }
         }
     }
