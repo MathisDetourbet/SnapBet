@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var permissionNotGrantedView: UIView!
     
+    @IBAction func takePhotoAction(_ sender: UIButton) {
+        
+    }
     // MARK: -  Timer Properties
     
     let TIMER_STEP: TimeInterval = 0.01
@@ -45,6 +48,7 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.updatePermissionUI(granted: granted)
             }
+            
             if granted {
                 self.sessionPrepare()
                 self.session.startRunning()

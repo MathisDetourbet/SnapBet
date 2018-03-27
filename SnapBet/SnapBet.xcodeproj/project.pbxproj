@@ -18,6 +18,9 @@
 		67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C2D206A7F75004F4E25 /* Main.storyboard */; };
 		67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */; };
 		67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */; };
+		67B23C36206A86C9004F4E25 /* BetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C35206A86C9004F4E25 /* BetCardView.xib */; };
+		67B23C38206A8B04004F4E25 /* NoBetNoFlouzView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C37206A8B04004F4E25 /* NoBetNoFlouzView.xib */; };
+		67B23C3A206A8FF3004F4E25 /* BetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C39206A8FF3004F4E25 /* BetCardView.swift */; };
 		CD92E53DEAE06A32DD435F0B /* Pods_SnapBetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		67B23C2D206A7F75004F4E25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+DeviceOrientation.swift"; sourceTree = "<group>"; };
 		67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Monospaced.swift"; sourceTree = "<group>"; };
+		67B23C35206A86C9004F4E25 /* BetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BetCardView.xib; sourceTree = "<group>"; };
+		67B23C37206A8B04004F4E25 /* NoBetNoFlouzView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoBetNoFlouzView.xib; sourceTree = "<group>"; };
+		67B23C39206A8FF3004F4E25 /* BetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetCardView.swift; sourceTree = "<group>"; };
 		834F418B0048E625E460A8B1 /* Pods-SnapBetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7470077ADC6CA28288BD77E /* Pods-SnapBet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet.debug.xcconfig"; sourceTree = "<group>"; };
 		B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,9 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				67B23C2F206A7F97004F4E25 /* Extensions */,
-				67B23C2D206A7F75004F4E25 /* Main.storyboard */,
+				67B23C34206A8694004F4E25 /* Views */,
 				67B23BFD206A7683004F4E25 /* AppDelegate.swift */,
 				67B23BFF206A7683004F4E25 /* ViewController.swift */,
+				67B23C2D206A7F75004F4E25 /* Main.storyboard */,
 				67B23C04206A7683004F4E25 /* Assets.xcassets */,
 				67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */,
 				67B23C09206A7683004F4E25 /* Info.plist */,
@@ -167,6 +174,16 @@
 				67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67B23C34206A8694004F4E25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67B23C35206A86C9004F4E25 /* BetCardView.xib */,
+				67B23C39206A8FF3004F4E25 /* BetCardView.swift */,
+				67B23C37206A8B04004F4E25 /* NoBetNoFlouzView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D467143D8F8EF8863595165C /* Frameworks */ = {
@@ -295,7 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B23C36206A86C9004F4E25 /* BetCardView.xib in Resources */,
 				67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */,
+				67B23C38206A8B04004F4E25 /* NoBetNoFlouzView.xib in Resources */,
 				67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */,
 				67B23C05206A7683004F4E25 /* Assets.xcassets in Resources */,
 			);
@@ -478,6 +497,7 @@
 				67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */,
 				67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */,
 				67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */,
+				67B23C3A206A8FF3004F4E25 /* BetCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
