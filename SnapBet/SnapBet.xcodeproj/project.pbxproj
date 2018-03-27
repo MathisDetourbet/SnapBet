@@ -9,15 +9,21 @@
 /* Begin PBXBuildFile section */
 		240620EA13C0AED337377B1F /* Pods_SnapBet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46E05AC91CDE2F64B23B2E /* Pods_SnapBet.framework */; };
 		5414DA6BFCD8D241DA37C68F /* Pods_SnapBetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */; };
+		670D0CCB206AB28300FDC81D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CC7206AB28300FDC81D /* VideoViewController.swift */; };
+		670D0CCC206AB28300FDC81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CC8206AB28300FDC81D /* ViewController.swift */; };
+		670D0CCD206AB28300FDC81D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CC9206AB28300FDC81D /* PhotoViewController.swift */; };
+		670D0CCE206AB28300FDC81D /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CCA206AB28300FDC81D /* SwiftyRecordButton.swift */; };
+		670D0CD4206AB2F200FDC81D /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CD0206AB2F200FDC81D /* SwiftyCamButton.swift */; };
+		670D0CD5206AB2F200FDC81D /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CD1206AB2F200FDC81D /* PreviewView.swift */; };
+		670D0CD6206AB2F200FDC81D /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CD2206AB2F200FDC81D /* SwiftyCamViewController.swift */; };
+		670D0CD7206AB2F200FDC81D /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D0CD3206AB2F200FDC81D /* SwiftyCamViewControllerDelegate.swift */; };
+		670D0CD9206AB40C00FDC81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670D0CD8206AB40C00FDC81D /* Assets.xcassets */; };
 		67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFD206A7683004F4E25 /* AppDelegate.swift */; };
-		67B23C00206A7683004F4E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFF206A7683004F4E25 /* ViewController.swift */; };
-		67B23C05206A7683004F4E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C04206A7683004F4E25 /* Assets.xcassets */; };
+		67B23C00206A7683004F4E25 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFF206A7683004F4E25 /* TestViewController.swift */; };
 		67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */; };
 		67B23C13206A7683004F4E25 /* SnapBetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C12206A7683004F4E25 /* SnapBetTests.swift */; };
 		67B23C1E206A7683004F4E25 /* SnapBetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */; };
 		67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C2D206A7F75004F4E25 /* Main.storyboard */; };
-		67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */; };
-		67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */; };
 		67B23C36206A86C9004F4E25 /* BetCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C35206A86C9004F4E25 /* BetCardView.xib */; };
 		67B23C38206A8B04004F4E25 /* NoBetNoFlouzView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C37206A8B04004F4E25 /* NoBetNoFlouzView.xib */; };
 		67B23C3A206A8FF3004F4E25 /* BetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C39206A8FF3004F4E25 /* BetCardView.swift */; };
@@ -46,10 +52,18 @@
 		33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		434309D46D53C380E9A9DB2A /* Pods-SnapBetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EC9E69D6B333963945B0430 /* Pods-SnapBetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetUITests/Pods-SnapBetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		670D0CC7206AB28300FDC81D /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		670D0CC8206AB28300FDC81D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		670D0CC9206AB28300FDC81D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		670D0CCA206AB28300FDC81D /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		670D0CD0206AB2F200FDC81D /* SwiftyCamButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamButton.swift; sourceTree = "<group>"; };
+		670D0CD1206AB2F200FDC81D /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		670D0CD2206AB2F200FDC81D /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		670D0CD3206AB2F200FDC81D /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		670D0CD8206AB40C00FDC81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B23BFA206A7683004F4E25 /* SnapBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B23BFD206A7683004F4E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67B23BFF206A7683004F4E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		67B23C04206A7683004F4E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B23BFF206A7683004F4E25 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		67B23C07206A7683004F4E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B23C09206A7683004F4E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B23C0E206A7683004F4E25 /* SnapBetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapBetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,8 +73,6 @@
 		67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapBetUITests.swift; sourceTree = "<group>"; };
 		67B23C1F206A7683004F4E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67B23C2D206A7F75004F4E25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+DeviceOrientation.swift"; sourceTree = "<group>"; };
-		67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Monospaced.swift"; sourceTree = "<group>"; };
 		67B23C35206A86C9004F4E25 /* BetCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BetCardView.xib; sourceTree = "<group>"; };
 		67B23C37206A8B04004F4E25 /* NoBetNoFlouzView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoBetNoFlouzView.xib; sourceTree = "<group>"; };
 		67B23C39206A8FF3004F4E25 /* BetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetCardView.swift; sourceTree = "<group>"; };
@@ -112,6 +124,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		670D0CCF206AB2F100FDC81D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				670D0CD0206AB2F200FDC81D /* SwiftyCamButton.swift */,
+				670D0CD1206AB2F200FDC81D /* PreviewView.swift */,
+				670D0CD2206AB2F200FDC81D /* SwiftyCamViewController.swift */,
+				670D0CD3206AB2F200FDC81D /* SwiftyCamViewControllerDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		67B23BF1206A7683004F4E25 = {
 			isa = PBXGroup;
 			children = (
@@ -137,13 +160,17 @@
 		67B23BFC206A7683004F4E25 /* SnapBet */ = {
 			isa = PBXGroup;
 			children = (
-				67B23C2F206A7F97004F4E25 /* Extensions */,
+				670D0CCF206AB2F100FDC81D /* Source */,
+				670D0CC9206AB28300FDC81D /* PhotoViewController.swift */,
+				670D0CCA206AB28300FDC81D /* SwiftyRecordButton.swift */,
+				670D0CC7206AB28300FDC81D /* VideoViewController.swift */,
+				670D0CC8206AB28300FDC81D /* ViewController.swift */,
 				67B23C34206A8694004F4E25 /* Views */,
 				67B23BFD206A7683004F4E25 /* AppDelegate.swift */,
-				67B23BFF206A7683004F4E25 /* ViewController.swift */,
+				67B23BFF206A7683004F4E25 /* TestViewController.swift */,
 				67B23C2D206A7F75004F4E25 /* Main.storyboard */,
-				67B23C04206A7683004F4E25 /* Assets.xcassets */,
 				67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */,
+				670D0CD8206AB40C00FDC81D /* Assets.xcassets */,
 				67B23C09206A7683004F4E25 /* Info.plist */,
 			);
 			path = SnapBet;
@@ -165,15 +192,6 @@
 				67B23C1F206A7683004F4E25 /* Info.plist */,
 			);
 			path = SnapBetUITests;
-			sourceTree = "<group>";
-		};
-		67B23C2F206A7F97004F4E25 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				67B23C30206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift */,
-				67B23C31206A7F97004F4E25 /* UIFont+Monospaced.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		67B23C34206A8694004F4E25 /* Views */ = {
@@ -316,7 +334,7 @@
 				67B23C2E206A7F75004F4E25 /* Main.storyboard in Resources */,
 				67B23C38206A8B04004F4E25 /* NoBetNoFlouzView.xib in Resources */,
 				67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */,
-				67B23C05206A7683004F4E25 /* Assets.xcassets in Resources */,
+				670D0CD9206AB40C00FDC81D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,10 +511,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B23C00206A7683004F4E25 /* ViewController.swift in Sources */,
-				67B23C32206A7F97004F4E25 /* AVCaptureVideoOrientation+DeviceOrientation.swift in Sources */,
+				67B23C00206A7683004F4E25 /* TestViewController.swift in Sources */,
+				670D0CCE206AB28300FDC81D /* SwiftyRecordButton.swift in Sources */,
+				670D0CD5206AB2F200FDC81D /* PreviewView.swift in Sources */,
+				670D0CD4206AB2F200FDC81D /* SwiftyCamButton.swift in Sources */,
+				670D0CCB206AB28300FDC81D /* VideoViewController.swift in Sources */,
 				67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */,
-				67B23C33206A7F97004F4E25 /* UIFont+Monospaced.swift in Sources */,
+				670D0CCC206AB28300FDC81D /* ViewController.swift in Sources */,
+				670D0CCD206AB28300FDC81D /* PhotoViewController.swift in Sources */,
+				670D0CD7206AB2F200FDC81D /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				670D0CD6206AB2F200FDC81D /* SwiftyCamViewController.swift in Sources */,
 				67B23C3A206A8FF3004F4E25 /* BetCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,7 +687,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.betclic.SnapBet.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -680,7 +704,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.betclic.SnapBet.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
