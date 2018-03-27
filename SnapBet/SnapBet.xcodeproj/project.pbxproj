@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240620EA13C0AED337377B1F /* Pods_SnapBet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46E05AC91CDE2F64B23B2E /* Pods_SnapBet.framework */; };
+		5414DA6BFCD8D241DA37C68F /* Pods_SnapBetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */; };
 		67B23BFE206A7683004F4E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFD206A7683004F4E25 /* AppDelegate.swift */; };
 		67B23C00206A7683004F4E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23BFF206A7683004F4E25 /* ViewController.swift */; };
 		67B23C03206A7683004F4E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C01206A7683004F4E25 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		67B23C08206A7683004F4E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B23C06206A7683004F4E25 /* LaunchScreen.storyboard */; };
 		67B23C13206A7683004F4E25 /* SnapBetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C12206A7683004F4E25 /* SnapBetTests.swift */; };
 		67B23C1E206A7683004F4E25 /* SnapBetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */; };
+		CD92E53DEAE06A32DD435F0B /* Pods_SnapBetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31621FD57EABCDD4C47F1959 /* Pods-SnapBetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetUITests/Pods-SnapBetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434309D46D53C380E9A9DB2A /* Pods-SnapBetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EC9E69D6B333963945B0430 /* Pods-SnapBetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetUITests/Pods-SnapBetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		67B23BFA206A7683004F4E25 /* SnapBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B23BFD206A7683004F4E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B23BFF206A7683004F4E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		67B23C19206A7683004F4E25 /* SnapBetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapBetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B23C1D206A7683004F4E25 /* SnapBetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapBetUITests.swift; sourceTree = "<group>"; };
 		67B23C1F206A7683004F4E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834F418B0048E625E460A8B1 /* Pods-SnapBetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7470077ADC6CA28288BD77E /* Pods-SnapBet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet.debug.xcconfig"; sourceTree = "<group>"; };
+		B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E2E7BB3C485A553B13AD8E /* Pods-SnapBet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapBet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet.release.xcconfig"; sourceTree = "<group>"; };
+		FB46E05AC91CDE2F64B23B2E /* Pods_SnapBet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapBet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240620EA13C0AED337377B1F /* Pods_SnapBet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD92E53DEAE06A32DD435F0B /* Pods_SnapBetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5414DA6BFCD8D241DA37C68F /* Pods_SnapBetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33EC595F68919028627D1426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7470077ADC6CA28288BD77E /* Pods-SnapBet.debug.xcconfig */,
+				D2E2E7BB3C485A553B13AD8E /* Pods-SnapBet.release.xcconfig */,
+				434309D46D53C380E9A9DB2A /* Pods-SnapBetTests.debug.xcconfig */,
+				834F418B0048E625E460A8B1 /* Pods-SnapBetTests.release.xcconfig */,
+				31621FD57EABCDD4C47F1959 /* Pods-SnapBetUITests.debug.xcconfig */,
+				4EC9E69D6B333963945B0430 /* Pods-SnapBetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		67B23BF1206A7683004F4E25 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				67B23C11206A7683004F4E25 /* SnapBetTests */,
 				67B23C1C206A7683004F4E25 /* SnapBetUITests */,
 				67B23BFB206A7683004F4E25 /* Products */,
+				33EC595F68919028627D1426 /* Pods */,
+				D467143D8F8EF8863595165C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = SnapBetUITests;
 			sourceTree = "<group>";
 		};
+		D467143D8F8EF8863595165C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB46E05AC91CDE2F64B23B2E /* Pods_SnapBet.framework */,
+				33E3B5FB749DBE1B46D0DFAA /* Pods_SnapBetTests.framework */,
+				B53EE8A329CA67C82133A464 /* Pods_SnapBetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B23C22206A7683004F4E25 /* Build configuration list for PBXNativeTarget "SnapBet" */;
 			buildPhases = (
+				C4835765106607BFE926FD7A /* [CP] Check Pods Manifest.lock */,
 				67B23BF6206A7683004F4E25 /* Sources */,
 				67B23BF7206A7683004F4E25 /* Frameworks */,
 				67B23BF8206A7683004F4E25 /* Resources */,
+				4D98D9990A5C31E6DD32801F /* [CP] Embed Pods Frameworks */,
+				3B24677D4E4053146B52066F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B23C25206A7683004F4E25 /* Build configuration list for PBXNativeTarget "SnapBetTests" */;
 			buildPhases = (
+				C2ED99CA0A1D786C085A2008 /* [CP] Check Pods Manifest.lock */,
 				67B23C0A206A7683004F4E25 /* Sources */,
 				67B23C0B206A7683004F4E25 /* Frameworks */,
 				67B23C0C206A7683004F4E25 /* Resources */,
+				9604FB67AC42365752516400 /* [CP] Embed Pods Frameworks */,
+				BC028F1850DC7C58CAE3C413 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B23C28206A7683004F4E25 /* Build configuration list for PBXNativeTarget "SnapBetUITests" */;
 			buildPhases = (
+				0BAAB44F064A85188EE7864A /* [CP] Check Pods Manifest.lock */,
 				67B23C15206A7683004F4E25 /* Sources */,
 				67B23C16206A7683004F4E25 /* Frameworks */,
 				67B23C17206A7683004F4E25 /* Resources */,
+				857DF5D467DF671764A06A9F /* [CP] Embed Pods Frameworks */,
+				121222E5598F56A3B025EF69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAAB44F064A85188EE7864A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapBetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		121222E5598F56A3B025EF69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBetUITests/Pods-SnapBetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B24677D4E4053146B52066F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D98D9990A5C31E6DD32801F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBet/Pods-SnapBet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857DF5D467DF671764A06A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBetUITests/Pods-SnapBetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9604FB67AC42365752516400 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC028F1850DC7C58CAE3C413 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapBetTests/Pods-SnapBetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ED99CA0A1D786C085A2008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapBetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4835765106607BFE926FD7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapBet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67B23BF6206A7683004F4E25 /* Sources */ = {
@@ -424,6 +625,7 @@
 		};
 		67B23C23206A7683004F4E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7470077ADC6CA28288BD77E /* Pods-SnapBet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +640,7 @@
 		};
 		67B23C24206A7683004F4E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E2E7BB3C485A553B13AD8E /* Pods-SnapBet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +655,7 @@
 		};
 		67B23C26206A7683004F4E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434309D46D53C380E9A9DB2A /* Pods-SnapBetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +672,7 @@
 		};
 		67B23C27206A7683004F4E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834F418B0048E625E460A8B1 /* Pods-SnapBetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +689,7 @@
 		};
 		67B23C29206A7683004F4E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31621FD57EABCDD4C47F1959 /* Pods-SnapBetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +705,7 @@
 		};
 		67B23C2A206A7683004F4E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC9E69D6B333963945B0430 /* Pods-SnapBetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

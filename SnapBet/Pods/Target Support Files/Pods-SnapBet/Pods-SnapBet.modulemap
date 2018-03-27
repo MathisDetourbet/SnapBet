@@ -1,0 +1,6 @@
+framework module Pods_SnapBet {
+  umbrella header "Pods-SnapBet-umbrella.h"
+
+  export *
+  module * { export * }
+}
