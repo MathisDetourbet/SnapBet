@@ -13,48 +13,12 @@ class ViewController: UIViewController {
     
     // MARK: - IBOutlets
     @IBOutlet weak var permissionNotGrantedView: UIView!
-    @IBOutlet weak var smileTopLabel: UILabel!
-    @IBOutlet weak var smilingTimeLabel: UILabel! {
-        didSet {
-            smilingTimeLabel.font = smilingTimeLabel.font.monospacedDigitFont
-        }
-    }
     
     // MARK: -  Timer Properties
     
     let TIMER_STEP: TimeInterval = 0.01
     var timer = Timer()
     var secondsCounter: TimeInterval = 0
-    
-    // MARK: -  Face Detection Properties
-    
-    var isSmiling = false {
-        didSet {
-            switch isSmiling {
-            case true:
-                if timer.isValid { break }
-                DispatchQueue.main.async {
-                    self.smileTopLabel.alpha = 0.0
-                    self.timer.invalidate()
-                    self.timer = Timer.scheduledTimer(timeInterval: self.TIMER_STEP,
-                                                      target: self,
-                                                      selector: #selector(self.updateTimer),
-                                                      userInfo: nil,
-                                                      repeats: true)
-                }
-            case false:
-                DispatchQueue.main.async {
-                    UIView.animate(withDuration: 0.2,
-                                   delay: 1.0,
-                                   options: [],
-                                   animations: {
-                                    self.smileTopLabel.alpha = 1.0
-                    })
-                    self.timer.invalidate()
-                }
-            }
-        }
-    }
     
     var session = AVCaptureSession()
     
@@ -108,8 +72,6 @@ class ViewController: UIViewController {
         guard let previewLayer = previewLayer else { return }
         view.layer.addSublayer(previewLayer)
         
-        view.bringSubview(toFront: smilingTimeLabel)
-        view.bringSubview(toFront: smileTopLabel)
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -127,7 +89,6 @@ class ViewController: UIViewController {
     }
     
     @objc func appMovedToForeground() {
-        updateTimerLabel()
     }
     
     //MARK: - IBActions
@@ -189,10 +150,9 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         guard let features = faceDetector?.features(in: ciImage, options: options) else { return }
         
         if let faceFeature = (features.flatMap { $0 as? CIFaceFeature }.first) {
-            isSmiling = faceFeature.hasSmile
+            
         } else {
             // face is not visible
-            isSmiling = false
         }
         
     }
@@ -211,30 +171,9 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
     }
 }
 
-// MARK: - Timer
-extension ViewController {
-    @objc func updateTimer() {
-        secondsCounter += TIMER_STEP
-        updateTimerLabel()
-    }
-    
-    func updateTimerLabel() {
-        DispatchQueue.main.async {
-            self.smilingTimeLabel.text = self.timeString()
-        }
-    }
-    
-    func timeString() -> String {
-        let minutes = Int(secondsCounter) / 60 % 60
-        let seconds = Int(secondsCounter) % 60
-        let milliseconds = Int(secondsCounter.truncatingRemainder(dividingBy: 1) * 100)
-        
-        return String(format: "%02i:%02i.%02i", arguments: [minutes, seconds, milliseconds])
-    }
-}
-
 // MARK: - Permissions
 extension ViewController {
+    
     func checkCameraPermission(completion: @escaping (Bool) -> Void) {
         if AVCaptureDevice.authorizationStatus(for: .video) ==  .authorized {
             completion(true)
@@ -247,7 +186,5 @@ extension ViewController {
     
     func updatePermissionUI(granted: Bool) {
         permissionNotGrantedView.isHidden = granted
-        smileTopLabel.isHidden = !granted
-        smilingTimeLabel.isHidden = !granted
     }
 }
