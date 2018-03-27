@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,13 +24,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Q5-g8-s7e" userLabel="BetCard">
-                                <rect key="frame" x="0.0" y="338" width="320" height="150"/>
+                                <rect key="frame" x="10" y="338" width="300" height="150"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wh3-xR-56r">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I won!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67M-Qf-z7d">
-                                                <rect key="frame" x="113" y="-1.5" width="94" height="33"/>
+                                                <rect key="frame" x="103" y="-1.5" width="94" height="33"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -45,7 +44,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RAb-fr-GSw">
-                                        <rect key="frame" x="0.0" y="30" width="320" height="45"/>
+                                        <rect key="frame" x="0.0" y="30" width="300" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTw-lI-UHJ" userLabel="team1Label">
                                                 <rect key="frame" x="10" y="12" width="27" height="21"/>
@@ -60,19 +59,19 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Android" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZs-pH-qiT" userLabel="team2Label">
-                                                <rect key="frame" x="250" y="12" width="60" height="21"/>
+                                                <rect key="frame" x="230" y="12" width="60" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg0-xM-jsq" userLabel="score2Label">
-                                                <rect key="frame" x="209" y="12" width="11" height="21"/>
+                                                <rect key="frame" x="189" y="12" width="11" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ja-Xk-j8p" userLabel="separatorLabel">
-                                                <rect key="frame" x="150.5" y="-2" width="19" height="49"/>
+                                                <rect key="frame" x="140.5" y="-2" width="19" height="49"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="41"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -94,7 +93,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7T-Hh-A74">
-                                        <rect key="frame" x="0.0" y="75" width="320" height="75"/>
+                                        <rect key="frame" x="0.0" y="75" width="300" height="75"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D1-dw-SfD">
                                                 <rect key="frame" x="30" y="10" width="37" height="21"/>
@@ -103,25 +102,25 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZmA-4q-tdF">
-                                                <rect key="frame" x="142" y="10" width="37" height="21"/>
+                                                <rect key="frame" x="132" y="10" width="37" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60r-e6-P7F">
-                                                <rect key="frame" x="255" y="10" width="35" height="21"/>
+                                                <rect key="frame" x="235" y="10" width="35" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 €" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-Yj-bsh">
-                                                <rect key="frame" x="138.5" y="51" width="44" height="21"/>
+                                                <rect key="frame" x="128.5" y="51" width="44" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120 €" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eku-st-6S2">
-                                                <rect key="frame" x="251" y="51" width="43" height="21"/>
+                                                <rect key="frame" x="231" y="51" width="43" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -208,10 +207,10 @@ To provide permission: 1) Go to Settings 2) Locate SmileDetector app 3) Tu
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8c2-OO-P13" userLabel="NoBetView">
-                                <rect key="frame" x="5" y="5" width="310" height="50"/>
+                                <rect key="frame" x="5" y="44" width="310" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO BET NO GAIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjo-8o-04N">
-                                        <rect key="frame" x="7" y="3" width="296" height="44.5"/>
+                                        <rect key="frame" x="7" y="-7" width="296" height="44.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="37"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -221,23 +220,33 @@ To provide permission: 1) Go to Settings 2) Locate SmileDetector app 3) Tu
                                     <constraint firstItem="Rjo-8o-04N" firstAttribute="centerX" secondItem="8c2-OO-P13" secondAttribute="centerX" id="Aax-Uv-Q0j"/>
                                     <constraint firstItem="Rjo-8o-04N" firstAttribute="centerY" secondItem="8c2-OO-P13" secondAttribute="centerY" id="Bes-Vh-eta"/>
                                     <constraint firstItem="Rjo-8o-04N" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8c2-OO-P13" secondAttribute="leading" id="Hn1-PP-D35"/>
-                                    <constraint firstAttribute="height" constant="50" id="VRY-wR-gfU"/>
+                                    <constraint firstAttribute="height" constant="30" id="VRY-wR-gfU"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rjo-8o-04N" secondAttribute="trailing" id="dXF-rt-Q0j"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="980-tM-YXI">
+                                <rect key="frame" x="0.0" y="0.0" width="47" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="YJJ-ls-TNY"/>
+                                    <constraint firstAttribute="width" constant="47" id="ktx-U0-KIE"/>
+                                </constraints>
+                                <state key="normal" image="iconClose"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="980-tM-YXI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2ff-5e-j9D"/>
+                            <constraint firstItem="980-tM-YXI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CQ7-gT-oGG"/>
                             <constraint firstItem="8c2-OO-P13" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="Iuj-2z-IfF"/>
-                            <constraint firstItem="8c2-OO-P13" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="N4A-fa-M9N"/>
                             <constraint firstAttribute="trailing" secondItem="wFZ-Mc-59i" secondAttribute="trailing" id="PPB-A5-fa0"/>
                             <constraint firstItem="tuH-G2-qp6" firstAttribute="top" secondItem="wFZ-Mc-59i" secondAttribute="bottom" id="PYM-mC-ieD"/>
                             <constraint firstAttribute="trailing" secondItem="8c2-OO-P13" secondAttribute="trailing" constant="5" id="QaS-aB-bTr"/>
-                            <constraint firstAttribute="trailing" secondItem="3Q5-g8-s7e" secondAttribute="trailing" id="eMt-pN-Zz1"/>
+                            <constraint firstItem="8c2-OO-P13" firstAttribute="top" secondItem="980-tM-YXI" secondAttribute="bottom" constant="5" id="Ypd-tN-Z16"/>
+                            <constraint firstAttribute="trailing" secondItem="3Q5-g8-s7e" secondAttribute="trailing" constant="10" id="eMt-pN-Zz1"/>
                             <constraint firstItem="wFZ-Mc-59i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eYL-Nv-Kpv"/>
                             <constraint firstAttribute="bottomMargin" secondItem="IWJ-cX-3NE" secondAttribute="bottom" constant="10" id="h5v-Li-fnM"/>
                             <constraint firstItem="wFZ-Mc-59i" firstAttribute="top" secondItem="943-HL-Tzm" secondAttribute="bottom" id="iIo-Kz-d6e"/>
-                            <constraint firstItem="3Q5-g8-s7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="luF-HJ-uPJ"/>
+                            <constraint firstItem="3Q5-g8-s7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="luF-HJ-uPJ"/>
                             <constraint firstItem="IWJ-cX-3NE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sVi-KY-8mN"/>
                             <constraint firstAttribute="bottom" secondItem="3Q5-g8-s7e" secondAttribute="bottom" constant="80" id="x5w-nP-9wf"/>
                         </constraints>
@@ -253,10 +262,11 @@ To provide permission: 1) Go to Settings 2) Locate SmileDetector app 3) Tu
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+            <point key="canvasLocation" x="24.375" y="31.690140845070424"/>
         </scene>
     </scenes>
     <resources>
         <image name="cameraButton" width="42" height="42"/>
+        <image name="iconClose" width="15" height="14"/>
     </resources>
 </document>
